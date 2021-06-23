@@ -1,1 +1,1 @@
-web: gunicorn main: on_ready
+web: gunicorn gettingstarted.wsgi
