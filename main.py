@@ -8,6 +8,9 @@ from googletrans import Translator
 from selenium import webdriver
 from wcwidth import wcswidth
 
+
+# 사용할 포트 설정
+PORT = process.env.PORT or '5000'
 # 디스코드 봇 제작자
 Director = "Lisianthus26"
 # discord 봇 생성
